@@ -1,0 +1,13 @@
+.row{
+    padding: 20px;
+}
+
+div{
+    background: darkcyan;
+}
+
+#fotodeperfil {
+    position:absolute;
+    width: 15%;
+    border-radius: 100%;
+}
