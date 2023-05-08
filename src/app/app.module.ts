@@ -17,8 +17,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { LoginComponent } from './Component/login/login.component';
 import { HomeComponent } from './Component/home/home.component';
 
-import { EditExperienciaComponent } from './Component/experiencia/edit-experiencia.component';
-import { NewExperienciaComponent } from './Component/experiencia/new-experiencia.component';
+import { EditExperienciaComponent } from './Component/experiencia/Edit/edit-experiencia.component';
+import { NewExperienciaComponent } from './Component/experiencia/New/new-experiencia.component';
 
 @NgModule({
   declarations: [

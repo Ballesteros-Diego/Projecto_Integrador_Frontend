@@ -7,7 +7,7 @@ import { Educacion } from '../Model/educacion';
   providedIn: 'root'
 })
 export class SEducacionService {
-  expURL = 'http://localhost:8080/educacion/'
+  expURL = 'http://localhost:9090/educacion/'
 
   constructor(private httpClient: HttpClient) { }
 

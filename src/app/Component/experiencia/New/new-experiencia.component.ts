@@ -4,13 +4,11 @@ import { Experiencia } from 'src/app/Model/experiencia';
 import { SExperienciaService } from 'src/app/service/s-experiencia.service';
 import { NgModule } from '@angular/core';
 
-
 @Component({
   selector: 'app-new-experiencia',
   templateUrl: './new-experiencia.component.html',
   styleUrls: ['./new-experiencia.component.css']
 })
-
 export class NewExperienciaComponent implements OnInit {
   nombreE: string = '';
   descripcionE: string = '';
@@ -20,16 +18,16 @@ export class NewExperienciaComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  onCreate():void{
+  onCreate(): void {
     const expe = new Experiencia(this.nombreE, this.descripcionE);
     this.sExperiencia.save(expe).subscribe(
-      data =>{
+      data => {
         alert("Experiencia añadida");
         this.router.navigate(['']);
-      }, err =>{
+      }, err => {
         alert("Falló");
         this.router.navigate(['']);
-    }
+      }
     )
   }
 
