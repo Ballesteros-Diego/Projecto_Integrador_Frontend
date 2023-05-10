@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  URL: 'http://localhost:9090/' // <-- replace with your API endpoint URL
+  URL: 'http://localhost:8080/' // <-- replace with your API endpoint URL
 };
 
 /*
