@@ -9,11 +9,11 @@ import { PersonaService } from 'src/app/service/persona.service';
 })
 export class BioComponent implements OnInit {
   persona: persona = new persona("","","");
-
+  
   constructor(public personaService: PersonaService) { }
 
   ngOnInit(): void {
-    this.personaService.getPersona().subscribe(data => (this.persona = data))
+    this.personaService.getPersona().subscribe(data => {this.persona = data})
   }
 
 }
