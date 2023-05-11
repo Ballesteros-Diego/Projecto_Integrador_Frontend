@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  URL: 'http://localhost:8080/' // <-- replace with your API endpoint URL
+  URL: 'https://projectointegrador-a8008.web.app/' // <-- replace with your API endpoint URL
 };
 
 /*
